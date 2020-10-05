@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="bootstrap.min.css"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>SOR.SCH</title>
+    <title>SOR.SCH bejelentkezés</title>
 
+    <link rel="stylesheet" href="bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="footer.css">
-    <!-- komment hozzáadva -->
+
     <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#563d7c">
 
@@ -49,16 +49,15 @@
 </header>
 
 <main role="main" class="inner">
-    <div class="container mainDiv">
-        <div class="row justify-content-center">
+    <div class="container">
+        <div class="row justify-content-center" >
             <div class="d-none d-sm-block">
-                <img src="http://pngimg.com/uploads/beer/beer_PNG2379.png" class="img-fluid" alt="Responsive image"
-                     style="max-width: 98px">
+                <img id="loginImage" src="http://pngimg.com/uploads/beer/beer_PNG2379.png" class="img-fluid" alt="Responsive image">
             </div>
             <div class="col-1"></div>
             <div class="col-10 col-sm-6">
-                <h2 style="color: #ffffff">Jelentkezzen be,</h2>
-                <p style="color: #ffffff">hogy tudjon felvenni söröket az oldalra és megosztani másokkal a véleményét
+                <h2 id="tLoginIn">Jelentkezzen be,</h2>
+                <p id="tlongLoginIn">hogy tudjon felvenni söröket az oldalra és megosztani másokkal a véleményét
                     azokról az italokról, amivel már volt szerencséje.</p>
                 <form>
                     <div class="form-group">
@@ -71,14 +70,14 @@
                     <div class="inline"></div>
                     <a type="submit" class="btn btn-dark" href="index.html">Belépés</a>
                     <a type="submit" class="btn btn-dark" href="registration.html">Regisztráció</a>
-                    <a type="submit" class="btn btn-dark" href="#">Elfelejtett jelszó</a>
+                    <a type="submit" class="btn" id="bforgotPass" href="#">Elfelejtett jelszó</a>
                 </form>
             </div>
         </div>
     </div>
 </main>
 
-<footer id="sticky-footer" class="py-4">
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50 ">
     <div class="container text-center">
         <small>Copyright &copy; Drink today, not tomorrow</small>
     </div>

@@ -8,11 +8,3 @@ body {
     height: 100%;
     background-color: dimgray;
 }
-
-.mainDiv {
-    max-width:1200px
-}
-
-#mainDiv {
-    max-width:1200px
-}

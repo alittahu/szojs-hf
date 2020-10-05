@@ -1,5 +1,5 @@
 .inner {
-    margin-top: 135px;
+    margin-top: auto;
     margin-bottom: auto;
 }
 
@@ -9,6 +9,18 @@ body {
     background-color: dimgray;
 }
 
-.mainDiv {
-    max-width:1200px
+#bforgotPass{
+    color: white;
+}
+
+#loginImage{
+    max-width: 98px;
+}
+
+#tLoginIn{
+    color: white;
+}
+
+#tlongLoginIn{
+    color: white;
 }
