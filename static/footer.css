@@ -1,3 +1,6 @@
 #sticky-footer {
     margin-top: 60px;
+    background-color: #343a40;
+    font-size: 15px;
+    color: gray;
 }
