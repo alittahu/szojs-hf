@@ -1,3 +1,21 @@
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form button {
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+
+.contact-form button:focus {
+    box-shadow: none;
+}
+
+.contact-form button:hover {
+    color: gray;
+}
+
 .profileButtons:link {
     text-align: left;
     font-size: 1.5rem;
@@ -12,26 +30,12 @@
     color: black;
 }
 
-.col-md-3{
+.col-md-3 {
     padding: 3%;
-    border-top-left-radius: 0.2rem;
-    border-bottom-left-radius: 0.5rem;
+    background-color: #343a40;
 }
 
-.col-md-9{
-    background: #fff;
+.col-md-9 {
     padding: 3%;
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-}
-.contact-form label{
-    font-weight:600;
-}
-.contact-form button{
-    color: #fff;
-    font-weight: 600;
-    width: 25%;
-}
-.contact-form button:focus{
-    box-shadow:none;
+    background: white;
 }
