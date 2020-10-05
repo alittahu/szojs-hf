@@ -1,8 +1,16 @@
 #brandButton {
-    font-size: 30px
+    color: white;
+    font-size: 30px;
 }
 
-.searchFields {
-    padding-left: 3%;
-    color: white;
+#navBar {
+    background-color: #343a40;
+}
+
+#mainHeaderDiv {
+    max-width:1170px
+}
+
+#navbarToggler {
+    border-color: white;
 }
