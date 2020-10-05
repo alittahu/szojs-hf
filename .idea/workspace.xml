@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c873d27-e227-403e-99bb-463ceb3878e8" name="Default Changelist" comment="" />
+    <list default="true" id="6c873d27-e227-403e-99bb-463ceb3878e8" name="Default Changelist" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iADbBumHWB24ilEGBRGYBTWSVT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,7 +39,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -79,6 +88,7 @@
       <workItem from="1601657164951" duration="9396000" />
       <workItem from="1601808526185" duration="654000" />
       <workItem from="1601885218205" duration="1673000" />
+      <workItem from="1601887320991" duration="1056000" />
     </task>
     <servers />
   </component>
@@ -86,6 +96,8 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -109,6 +121,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="440" key="Github.CreateGistDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601887047213" />
+    <state x="838" y="418" key="Github.ShareDialog" timestamp="1601887388031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="838" y="418" key="Github.ShareDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601887388031" />
+    <state x="761" y="225" key="Github.UntrackedFilesDialog" timestamp="1601887395773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="225" key="Github.UntrackedFilesDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601887395773" />
     <state width="1899" height="216" key="GridCell.Tab.0.bottom" timestamp="1601886836617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -125,10 +145,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="216" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601886836617" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1601887287171">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1601888074206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601887287171" />
+    <state x="461" y="165" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601888074206" />
+    <state x="800" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1601887594869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="800" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601887594869" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601887252337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
