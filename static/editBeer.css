@@ -1,0 +1,103 @@
+.profileButtons:link {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.profileButtons:hover {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.col-md-3{
+    background-color: #343a40;
+    padding: 3%;
+}
+
+.col-md-9{
+    background-color: white;
+    padding: 3%;
+}
+
+
+
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.rating label:last-child {
+    position: static;
+}
+
+.rating label:nth-child(1) {
+    z-index: 5;
+}
+
+.rating label:nth-child(2) {
+    z-index: 4;
+}
+
+.rating label:nth-child(3) {
+    z-index: 3;
+}
+
+.rating label:nth-child(4) {
+    z-index: 2;
+}
+
+.rating label:nth-child(5) {
+    z-index: 1;
+}
+
+.rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.rating label .icon {
+    float: left;
+    color: transparent;
+}
+
+.rating label:last-child .icon {
+    color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+    color: darkorange;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+    color: red;
+    text-shadow: 0 0 3px pink;
+}
