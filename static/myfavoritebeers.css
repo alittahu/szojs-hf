@@ -1,0 +1,23 @@
+.col-md-3 {
+    background-color: #343a40;;
+    padding: 3%;
+}
+
+.col-md-9 {
+    background: #fff;
+    padding: 3%;
+}
+
+.profileButtons:link {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.profileButtons:hover {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: black;
+}

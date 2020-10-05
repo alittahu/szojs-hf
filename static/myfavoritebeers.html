@@ -1,88 +1,25 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="bootstrap.min.css"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>SOR.SCH</title>
+    <title>SÖR.SCH kedvenc söreim</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/">
+    <link rel="stylesheet" href="bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="myfavoritebeers.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="main.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
     <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#563d7c">
-
-
-    <style>
-
-        @media (min-width: 768px) {
-        }
-
-        .inner {
-            margin-top: 50px;
-            margin-bottom: auto;
-            /*whatever width you want*/
-        }
-
-        .profileButtons:link {
-            text-align: left;
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-            color: white;
-        }
-
-        .profileButtons:hover {
-            text-align: left;
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-            color: black;
-        }
-
-        html,
-        body {
-            height: 100%;
-        }
-
-        .col-md-3 {
-            padding: 3%;
-            border-top-left-radius: 0.2rem;
-            border-bottom-left-radius: 0.5rem;
-        }
-
-        .col-md-9 {
-            background: #fff;
-            padding: 3%;
-            border-top-right-radius: 0.5rem;
-            border-bottom-right-radius: 0.5rem;
-        }
-
-        .contact-form label {
-            font-weight: 600;
-        }
-
-        .contact-form button {
-            color: #fff;
-            font-weight: 600;
-            width: 25%;
-        }
-
-        .contact-form button:focus {
-            box-shadow: none;
-        }
-
-
-    </style>
-    <!-- Custom styles for this template -->
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/">
+
 </head>
-<body style="background-color: dimgray" class="d-flex flex-column">
+<body class="d-flex flex-column">
 <header>
     <nav class="navbar navbar-expand-lg sticky-top" id="navBar">
         <div class="container-fluid" id="mainHeaderDiv">
@@ -114,10 +51,10 @@
 </header>
 
 <main role="main" class="inner">
-    <div class="container-fluid" style="max-width:1200px">
+    <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 bg-dark list-group list-group-flush" id="list-tab">
+                <div class="col-md-3 bg-dark"  id="list-tab">
                     <a class="btn btn-outline-light btn-block profileButtons mr-1" href="details.html">Adataim</a>
                     <a class="btn btn-outline-light btn-block profileButtons mr-1" href="mybeers.html">Söreim</a>
                     <a class="btn btn-outline-light btn-block profileButtons mr-1 active" id="list-favorites-list"
@@ -128,7 +65,8 @@
                         <div class="tab-pane fade show active" id="list-favorites" role="tabpanel"
                              aria-labelledby="list-favorites-list">
                             <h2>Kedvelt söreim</h2>
-                            <div class="album py-5">
+                            <hr>
+                            <div class="album py-4">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-6">
@@ -310,6 +248,7 @@
                 </div>
             </div>
         </div>
+    </div>
 </main>
 
 <footer id="sticky-footer" class="py-4">
