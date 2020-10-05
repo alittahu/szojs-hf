@@ -1,0 +1,25 @@
+.description {
+    margin-top: 5%;
+}
+
+.descriptionRow {
+    margin-top: 2%;
+}
+
+.descriptionRow2 {
+    margin-top: 7%;
+}
+
+.col-md-3{
+    padding: 1.5%;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+}
+
+.col-md-9{
+    padding: 1.5%;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    color: white;
+}
+

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SOR.SCH</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="registration.css">
+
+    <link href="bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#563d7c">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/">
+
+</head>
+<body class="d-flex flex-column" style="background-color: dimgray">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid mainDiv">
+            <a class="navbar-brand" href="index.html" id="brandButton">SÖR.SCH</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <form class="form-inline ml-auto">
+                    <div class="input-group sm-2">
+                        <input type="text" id="iSearch" class="form-control" placeholder="Mit keres?">
+                        <div class="input-group-append">
+                            <label for="iSearch">
+                                <button class="btn btn-outline-light " type="submit" value="Submit" id="bSearch">
+                                    Keresés
+                                </button>
+                            </label>
+                        </div>
+                    </div>
+                    <a class="btn btn-link text-light" href="login.html" role="link" id="bSignin">Bejelentkezés</a>
+                    <a class="btn btn-link text-light" href="details.html" role="link" id="bProfiletemp">Profil_menu</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main role="main" class="inner">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10 col-sm-6 col-md-4">
+                <h2 class="registration" style="text-align: center">Regisztráljon</h2>
+                <form>
+                    <div class="form-group input-group"></div>
+                    <div class="form-group input-group">
+                        <input name="iEmail" class="form-control" placeholder="Email cím" type="email">
+                    </div>
+                    <div class="form-group input-group">
+                        <input name="iPassword" class="form-control" placeholder="Jelszó" type="password">
+                    </div>
+                    <div class="form-group input-group">
+                        <input name="iPassword" class="form-control" placeholder="Jelszó újra" type="password">
+                    </div>
+                    <div class="form-group input-group">
+                        <input name="iFirstName" class="form-control" placeholder="Vezetéknév" type="text">
+                    </div>
+                    <div class="form-group input-group">
+                        <input name="iLastName" class="form-control" placeholder="Keresztnév" type="text">
+                    </div>
+                    <input type="checkbox" id="accept" name="accept">
+                    <label for="accept" class="registration">Elolvastam és elfogadom a teljes szabályzatot.</label>
+                    <div class="form-group">
+                        <a type="submit" class="btn btn-dark btn-block" href="index.html">Regisztrálás</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50" style="margin-top: 60px">
+    <div class="container text-center">
+        <small>Copyright &copy; Drink today, not tomorrow</small>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+</html>

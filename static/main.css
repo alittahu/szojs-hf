@@ -1,0 +1,18 @@
+.inner {
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: dimgray;
+}
+
+.mainDiv {
+    max-width:1200px
+}
+
+#mainDiv {
+    max-width:1200px
+}

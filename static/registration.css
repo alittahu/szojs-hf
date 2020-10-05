@@ -1,0 +1,14 @@
+.inner {
+    margin-top: 105px;
+    margin-bottom: auto;
+    /*whatever width you want*/
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.registration {
+    color: white;
+}

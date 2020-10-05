@@ -1,0 +1,41 @@
+.col-md-3{
+    padding: 1.5%;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+}
+
+.col-md-9{
+    background: #fff;
+}
+
+.checkBoxes {
+    margin-left: 10px;
+}
+
+#dropdownButton {
+    margin-top: 2.1%;
+    margin-right: 1.5%;
+}
+
+.dropdown-item:focus {
+    background-color: black;
+}
+
+.dropdown {
+    height: 50px;
+}
+
+.dropdown-toggle {
+    font-size: 20px;
+    height: 100%;
+}
+
+.mainDiv {
+    max-width:1200px
+}
+
+.mainButton {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1.5rem;
+}

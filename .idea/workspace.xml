@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c873d27-e227-403e-99bb-463ceb3878e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iADbBumHWB24ilEGBRGYBTWSVT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alittahu\Desktop\ohshit\assets\img" />
+      <recent name="C:\Users\alittahu\Desktop\ohshit\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\alittahu\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c873d27-e227-403e-99bb-463ceb3878e8" name="Default Changelist" comment="" />
+      <created>1601341572895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601341572895</updated>
+      <workItem from="1601341574142" duration="1265000" />
+      <workItem from="1601365850314" duration="31870000" />
+      <workItem from="1601409165183" duration="2165000" />
+      <workItem from="1601428969771" duration="3843000" />
+      <workItem from="1601460822519" duration="18459000" />
+      <workItem from="1601494243506" duration="5016000" />
+      <workItem from="1601568760689" duration="5431000" />
+      <workItem from="1601596402991" duration="16999000" />
+      <workItem from="1601653694339" duration="642000" />
+      <workItem from="1601657164951" duration="9396000" />
+      <workItem from="1601808526185" duration="654000" />
+      <workItem from="1601885218205" duration="1673000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="757" y="309" key="#Web_Browsers" timestamp="1601342822173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="757" y="309" key="#Web_Browsers/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601342822173" />
+    <state x="718" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601885292998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601885292998" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601668373065">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601668373065" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601886944728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601886944728" />
+    <state x="784" y="440" key="Github.CreateGistDialog" timestamp="1601887047213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="784" y="440" key="Github.CreateGistDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601887047213" />
+    <state width="1899" height="216" key="GridCell.Tab.0.bottom" timestamp="1601886836617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="216" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601886836617" />
+    <state width="1899" height="216" key="GridCell.Tab.0.center" timestamp="1601886836616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="216" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601886836616" />
+    <state width="1899" height="216" key="GridCell.Tab.0.left" timestamp="1601886836616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="216" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601886836616" />
+    <state width="1899" height="216" key="GridCell.Tab.0.right" timestamp="1601886836617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="216" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601886836617" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1601887287171">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601887287171" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601887252337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601887252337" />
+  </component>
+</project>
