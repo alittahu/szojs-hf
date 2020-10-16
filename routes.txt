@@ -11,8 +11,8 @@ Felhasználók és sörök
 - view.html             -   brand logo gomb, táblázat + leírás, favourite gomb
 
 Middlewares
-    middlewares/render/
-        renderMW
+
+    renderMW
 
     middlewares/authentication/
         authMW.js
