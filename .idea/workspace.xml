@@ -3,18 +3,28 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6c873d27-e227-403e-99bb-463ceb3878e8" name="Default Changelist" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/editBeer.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/editBeer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/forgotPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/forgotPassword.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/mybeers.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/mybeers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/myfavoritebeers.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/myfavoritebeers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/routes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +44,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iADbBumHWB24ilEGBRGYBTWSVT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -97,12 +109,26 @@
       <workItem from="1601657164951" duration="9396000" />
       <workItem from="1601808526185" duration="654000" />
       <workItem from="1601885218205" duration="1673000" />
-      <workItem from="1601887320991" duration="16330000" />
+      <workItem from="1601887320991" duration="17594000" />
+      <workItem from="1602332343987" duration="610000" />
+      <workItem from="1602855977581" duration="186000" />
+      <workItem from="1602856207020" duration="13982000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />

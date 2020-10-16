@@ -1,0 +1,98 @@
+Felhasználók és sörök
+
+- index.html            -   brand logo gomb, bejelentkezés gomb/profil gomb, sörök, rendezés gomb, szűrők (checkboxok), (kereső mező és gomb)
+- details.html          -   brand logo gomb, profil gomb, felhasználó adat + save, password change +save, adataim gomb, söreim gomb, kedvelt söreim gömb, (kereső mező és gomb)
+- mybeers.html          -   brand logo gomb, profil gomb, sörök + delete + edit + cancel, sör hozzáadása gomb, adataim gomb, söreim gomb, kedvelt söreim gomb, (kereső mező és gomb)
+- myfavoritebeers.html  -   brand logo gomb, profil gomb, sörök + delete, adataim gomb, söreim gomb, kedvelt söreim gomb, (kereső mező és gomb)
+- editBeer.html         -   brand logo gomb, profil gomb, sör adat + save + delete, adataim gomb, söreim gomb, kedvelt söreim gomb, (kereső mező és gomb)
+- login.html            -   brand logo gomb, bejelentkezés gomb, login form(email + jelszó input), belépés gomb, regisztráció gomb, elfelejtett jelszó gomb, (kereső mező és gomb)
+- forgotPassword.html   -   brand logo gomb, bejelentkezés gomb, email input, email küldése gomb, (kereső mező és gomb)
+- registration.html     -   brand logo gomb, bejelentkezés gomb, regisztráció form(5 input mező + checkbox), regisztrálás gomb, (kereső mező és gomb)
+- view.html             -   brand logo gomb, táblázat + leírás, favourite gomb
+
+Middlewares
+    middlewares/render/
+        renderMW
+
+    middlewares/authentication/
+        authMW.js
+        getUserByEmailMW.js
+        checkProfileLoginMW.js
+        handleWrongPassMW.js
+        sendPasswordMW.js
+        regProfileMW.js
+
+    middlewares/beer/
+        getFiltersMW.js
+        getSortingMW.js
+        getBeerMW.js
+        getBeersMW.js
+        delBeerMW.js
+
+    middlewares/profile/
+        getProfileMW.js
+        saveProfileMW.js
+
+Routing
+
+    GET  /                                  - index.html
+        authMW
+        getFiltersMW
+        getSortingMW
+        getBeerMW
+        renderMW(index.html)
+
+    GET,POST /profile/:user_id                  - details.html
+        authMW
+        getProfileMW
+        saveProfileMW
+        renderMW (details.html)
+
+    GET  /mybeers/:user_id                  - mybeers.html
+        authMW
+        getBeerMW
+        renderMW (mybeers.html)
+
+    GET  /favourites/:user_id               - myfavoritebeers.html
+        authMW
+        getBeerMW
+        renderMW (myfavoritebeers.html)
+    GET  /favourites/:user_id/del/:beer_id  - törléskör rákérdez, ha ok, akkor kedvencekből sör törlése
+        authMW
+        getBeerMW
+        delBeerMW
+
+    GET,POST /mybeers/:user_id/edit/:beer_id    - editBeer.html (edit)
+        authMW
+        getBeerMW
+        saveBeerMW
+        renderMW(editBeer.html (new))
+    GET  /mybeers/:user_id/del/:beer_id     - törlés ellenőrzése, ha ok redirect  /mybeers/:user_id/
+        authMW
+        getBeerMW
+        delBeerMW
+
+    GET,POST  /mybeers/:user_id/new              - editBeer.html (new)
+        authMW
+        saveBeerMW
+        renderMW(editBeer.html (new))
+
+    GET,POST  /login                             - login.html
+        getUserByEmailMW
+        checkUserLoginMW
+        handleWrongPassMW
+        renderMW (login.html)
+
+    GET,POST /forgotpassword                    - forgotPassword.html
+        getUserByEmailMW
+        sendPasswordMW
+        renderMW(forgotPassword.html)
+
+    GET,POST  /registration                      - registration.html
+        regProfileMW
+        renderMW(registration.html)
+
+    GET  /:beer_id                          - view.html
+        authMW
+        getBeerMW
+        renderMW (view.html)
