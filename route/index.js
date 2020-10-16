@@ -1,62 +1,69 @@
 const authMW = require('../middleware/auth/authMW');
-const checkPassMW = require('../middleware/auth/checkPassMW');
-const renderMW = require('../middleware/renderMW');
-const delBefottMW = require('../middleware/befott/delBefottMW');
-const getBefottekMW = require('../middleware/befott/getBefottekMW');
-const getBefottMW = require('../middleware/befott/getBefottMW');
-const saveBefottMW = require('../middleware/befott/saveBefottMW');
-const delNagymamaMW = require('../middleware/nagymama/delNagymamaMW');
-const getNagymamakMW = require('../middleware/nagymama/getNagymamakMW');
-const getNagymamaMW = require('../middleware/nagymama/getNagymamaMW');
-const getTopNagymamakMW = require('../middleware/nagymama/getTopNagymamakMW');
-const saveNagymamaMW = require('../middleware/nagymama/saveNagymamaMW');
+const getUserByEmailMW = require('../middleware/auth/getUserByEmailMW');
+const checkProfileLoginMW = require('../middleware/auth/checkProfileLoginMW');
+const handleWrongPassMW = require('../middleware/auth/handleWrongPassMW');
+const sendPasswordMW = require('../middleware/auth/sendPasswordMW');
+const regProfileMW = require('../middleware/auth/regProfileMW');
+const getFiltersMW = require('../middleware/beer/getFiltersMW');
+const getSortingMW = require('../middleware/beer/getSortingMW');
+const getBeerMW = require('../middleware/beer/getBeerMW');
+const saveBeerMW = require('../middleware/beer/saveBeerMW');
+const getBeersMW = require('../middleware/beer/getBeersMW');
+const delBeerMW = require('../middleware/beer/delBeerMW');
+const getProfileMW = require('../middleware/profile/getProfileMW');
+const saveProfileMW = require('../middleware/profile/saveProfileMW');
 
 module.exports = function (app) {
     const objRepo = {};
 
     app.use('/',
-        getTopNagymamakMW(objRepo),
-        checkPassMW(objRepo),
+        authMW(objRepo),
+        getFiltersMW(objRepo),
+        getSortingMW(objRepo),
+        getBeersMW(objRepo),
         renderMW(objRepo, 'index'));
 
-    app.get('/nagymama',
+    app.use('/profile/:userid',
         authMW(objRepo),
-        getNagymamakMW(objRepo),
-        renderMW(objRepo, 'nagymamalista'));
-    app.use('/nagymama/new',
+        getProfileMW(objRepo),
+        saveProfileMW(objRepo),
+        renderMW(objRepo, 'details'));
+    app.get('/mybeers/:userid',
         authMW(objRepo),
-        saveNagymamaMW(objRepo),
-        renderMW(objRepo, 'nagymamaeditnew'));
-    app.use('/nagymama/edit/:nagymamaid',
+        getBeersMW(objRepo),
+        renderMW(objRepo, 'mybeers'));
+    app.get('/favourites/:userid',
         authMW(objRepo),
-        getNagymamaMW(objRepo),
-        saveNagymamaMW(objRepo),
-        renderMW(objRepo, 'nagymamaeditnew'));
-    app.get('/nagymama/del/:nagymamaid',
+        getBeersMW(objRepo),
+        renderMW(objRepo, 'myfavoritebeers'));
+    app.get('/favourites/:userid/del/:beerid',
         authMW(objRepo),
-        getNagymamaMW(objRepo),
-        delNagymamaMW(objRepo));
+        getBeerMW(objRepo),
+        delBeerMW(objRepo));
 
-    app.get('/befott/:nagymamaid',
+    app.use('/mybeers/:userid/edit/:beerid',
         authMW(objRepo),
-        getNagymamaMW(objRepo),
-        getBefottekMW(objRepo),
-        renderMW(objRepo, 'egynagymamabefottjei'));
-    app.use('/befott/:nagymamaid/new',
+        getBeerMW(objRepo),
+        saveBeerMW(objRepo),
+        renderMW(objRepo, 'editBeer'));
+    app.use('/mybeers/:userid/new',
         authMW(objRepo),
-        getNagymamaMW(objRepo),
-        saveBefottMW(objRepo),
-        renderMW(objRepo, 'befotteditnew'));
-    app.use('/befott/:nagymamaid/edit/:befottid',
+        saveBeerMW(objRepo),
+        renderMW(objRepo, 'editBeer'));
+    app.use('/login',
+        getUserByEmailMW(objRepo),
+        checkProfileLoginMW(objRepo),
+        handleWrongPassMW(objRepo),
+        renderMW(objRepo, 'login'));
+    app.use('/forgotpassword',
+        getUserByEmailMW(objRepo),
+        sendPasswordMW(objRepo),
+        renderMW(objRepo, 'forgotPassword'));
+    app.use('/registration',
+        regProfileMW(objRepo),
+        renderMW(objRepo, 'registration'));
+    app.get('/:beerid',
         authMW(objRepo),
-        getNagymamaMW(objRepo),
-        getBefottMW(objRepo),
-        saveBefottMW(objRepo),
-        renderMW(objRepo, 'befotteditnew'));
-    app.get('/befott/:nagymamaid/del/:befottid',
-        authMW(objRepo),
-        getNagymamaMW(objRepo),
-        getBefottMW(objRepo),
-        delBefottMW(objRepo),
-        renderMW(objRepo, 'befotteditnew'));
+        getBeerMW(objRepo),
+        renderMW(objRepo, 'view'));
 };

@@ -39,7 +39,7 @@ Routing
         authMW
         getFiltersMW
         getSortingMW
-        getBeerMW
+        getBeersMW
         renderMW(index.html)
 
     GET,POST /profile/:user_id                  - details.html
@@ -50,7 +50,7 @@ Routing
 
     GET  /mybeers/:user_id                  - mybeers.html
         authMW
-        getBeerMW
+        getBeersMW
         renderMW (mybeers.html)
 
     GET  /favourites/:user_id               - myfavoritebeers.html
