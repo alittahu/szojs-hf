@@ -16,7 +16,7 @@ const saveProfileMW = require('../middleware/profile/saveProfileMW');
 module.exports = function (app) {
     const objRepo = {};
 
-    app.use('/',
+    app.get('/',
         authMW(objRepo),
         getFiltersMW(objRepo),
         getSortingMW(objRepo),
@@ -46,6 +46,12 @@ module.exports = function (app) {
         getBeerMW(objRepo),
         saveBeerMW(objRepo),
         renderMW(objRepo, 'editBeer'));
+
+    app.get('/mybeers/:userid/del/:beerid',
+        authMW(objRepo),
+        getBeerMW(objRepo),
+        delBeerMW(objRepo));
+
     app.use('/mybeers/:userid/new',
         authMW(objRepo),
         saveBeerMW(objRepo),

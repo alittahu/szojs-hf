@@ -79,7 +79,7 @@ Routing
 
     GET,POST  /login                             - login.html
         getUserByEmailMW
-        checkUserLoginMW
+        checkProfileLoginMW
         handleWrongPassMW
         renderMW (login.html)
 
