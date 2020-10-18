@@ -12,6 +12,7 @@ const getBeersMW = require('../middleware/beer/getBeersMW');
 const delBeerMW = require('../middleware/beer/delBeerMW');
 const getProfileMW = require('../middleware/profile/getProfileMW');
 const saveProfileMW = require('../middleware/profile/saveProfileMW');
+const renderMW = require('../middleware/renderMW');
 
 module.exports = function (app) {
     const objRepo = {};

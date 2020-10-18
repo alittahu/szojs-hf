@@ -24,22 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6c873d27-e227-403e-99bb-463ceb3878e8" name="Default Changelist" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/auth/authMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/auth/authMW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/auth/checkProfileLoginMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/auth/checkProfileLoginMW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/auth/getUserByEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/auth/getUserByEmail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/auth/handleWrongPassMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/auth/handleWrongPassMW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/auth/regProfileMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/auth/regProfileMW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/auth/sendPasswordMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/auth/sendPasswordMW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/beer/delBeerMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/beer/delBeerMW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/beer/getBeerMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/beer/getBeerMW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/beer/getBeersMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/beer/getBeersMW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/beer/getFiltersMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/beer/getFiltersMW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/beer/getSortingMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/beer/getSortingMW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/beer/saveBeerMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/beer/saveBeerMW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/profile/getProfileMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/profile/getProfileMW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/profile/saveProfileMW.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/profile/saveProfileMW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/auth/getUserByEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/auth/getUserByEmailMW.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/route/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/routes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +115,9 @@
       <workItem from="1601887320991" duration="17594000" />
       <workItem from="1602332343987" duration="610000" />
       <workItem from="1602855977581" duration="186000" />
-      <workItem from="1602856207020" duration="21858000" />
+      <workItem from="1602856207020" duration="21899000" />
+      <workItem from="1602889273835" duration="1705000" />
+      <workItem from="1603031120562" duration="163000" />
     </task>
     <servers />
   </component>
@@ -145,6 +134,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
